@@ -1,0 +1,116 @@
+*{
+    font-family:'Arial narrow blow';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.template{
+    width: 100%;
+    min-height: 800px;
+    background: rgb(38, 38, 63);
+    box-sizing: content-box;
+}
+
+.top{
+    width: 100%;
+    min-height: 80px;
+    color:gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    padding: 0 35px;
+    border-bottom: 1px solid white;
+}
+
+
+.center{
+    width: 100%;
+    min-height: 550px;
+    background: rgb(38, 38, 63);
+    padding: 80px 35px;
+}
+
+.top_side{
+    color: rgb(38, 38, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    min-width: 50%;
+    min-height: 550px;
+    background-image: url('../image/two-friends-cooking-together.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.right{
+    min-width: 50%;
+    min-height: 550px;
+    background: gold;
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    flex-direction: column;
+}
+
+.right button{
+    width: 170px;
+    color: white;
+    background: rgb(38, 38, 63);
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.bottom{
+    width: 100%;
+    min-height: 350px;
+    padding: 0px 35px;
+    color: rgb(173, 163, 163);
+}
+
+.bottom_center{
+    min-width: 100%;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left_part, .center_part, .right_part{
+    padding-right: 20px;
+}
+
+.left_part i {
+    font-size: 4.5rem;
+    color: rgb(38, 38, 63);
+    padding: 10px;
+    border-radius: 50%;
+    background: gold;
+    margin-bottom: 30px;
+}
+
+.center_part i {
+    font-size: 4.5rem;
+    color: rgb(38, 38, 63);
+    padding: 10px;
+    border-radius: 50%;
+    background: gold;
+    margin-bottom: 30px;
+}
+
+.right_part i {
+    font-size: 4.5rem;
+    color: rgb(38, 38, 63);
+    padding: 10px;
+    border-radius: 50%;
+    background: gold;
+    margin-bottom: 30px;
+}
+
