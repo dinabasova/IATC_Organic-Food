@@ -29,10 +29,6 @@
     min-height: 550px;
     background: rgb(38, 38, 63);
     padding: 80px 35px;
-}
-
-.top_side{
-    color: rgb(38, 38, 63);
     display: flex;
     justify-content: center;
     align-items: center;
